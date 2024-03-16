@@ -6,7 +6,7 @@ export default function IntroSection() {
       <p className='text-3xl font-light flex gap-x-3'>
         hi
         <span className='inline-block'>👋🏼,</span>
-        i'm
+        {`i'm`}
       </p>
       <h1 className='text-7xl font-medium'>kaiden</h1>
     </div>
