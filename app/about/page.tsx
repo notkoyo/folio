@@ -1,19 +1,19 @@
+import TechStackDrawer from "@/components/ui/about/tech-stack-drawer";
+import { IconBrandNextjs, IconBrandReact, IconBrandTailwind, IconBrandTypescript } from "@tabler/icons-react";
+import { ArrowLeft } from "lucide-react";
 import React from "react";
-import {
-  IconBrandNextjs,
-  IconBrandReact,
-  IconBrandTailwind,
-  IconBrandTypescript,
-} from "@tabler/icons-react";
-import TechStackDrawer from "./ui/about/tech-stack-drawer";
 
-export default function About() {
+export default function AboutPage() {
   return (
-    <div className="h-fit p-[1rem]">
+    <div className="h-screen p-[1rem]">
       <span className="sr-only">About section</span>
       <section className="flex flex-col bg-white shadow-md rounded-3xl h-full">
-        <div className="flex w-full justify-start py-8 px-8">
-          <h2 className="text-4xl font-medium">about</h2>
+        <a href="/" className="flex items-center gap-x-2 p-4 hover:translate-x-3 transition duration-300">
+          <ArrowLeft />
+          go back
+        </a>
+        <div className="flex w-full justify-start py-2 px-8">
+          <h2 className="text-6xl -skew-x-12 font-medium">about</h2>
         </div>
         <div className="flex w-full justify-between items-center flex-col md:flex-row">
           <div className="flex flex-col max-w-2xl px-7 pb-3">
