@@ -8,11 +8,7 @@ export default function AboutPage() {
     <div className="h-screen p-[1rem]">
       <span className="sr-only">About section</span>
       <section className="flex flex-col bg-white shadow-md rounded-3xl h-full">
-        <a href="/" className="flex items-center gap-x-2 p-4 hover:translate-x-3 transition duration-300">
-          <ArrowLeft />
-          go back
-        </a>
-        <div className="flex w-full justify-start py-2 px-8">
+        <div className="flex w-full justify-start py-4 px-8">
           <h2 className="text-6xl -skew-x-12 font-medium">about</h2>
         </div>
         <div className="flex w-full justify-between items-center flex-col md:flex-row">

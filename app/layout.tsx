@@ -3,6 +3,7 @@ import { Rubik } from "next/font/google";
 import "@/styles/globals.css";
 
 import { cn } from "@/lib/utils";
+import Nav from "@/components/nav";
 
 const rubik = Rubik({ subsets: ["latin"], variable: "--font-sans" });
 
@@ -19,6 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={cn("bg-[#d9d9d9] font-sans antialiased", rubik.variable)}>
+        <Nav />
         {children}
       </body>
     </html>
