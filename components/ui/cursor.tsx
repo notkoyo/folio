@@ -26,7 +26,7 @@ export default function Cursor() {
 
   return (
     <motion.div
-    className="fixed left-0 top-0 w-[1rem] h-[1rem] rounded-full mix-blend-difference z-[999] pointer-events-none bg-gray-50"
+    className="hidden md:fixed left-0 top-0 w-[1rem] h-[1rem] rounded-full mix-blend-difference z-[999] pointer-events-none bg-gray-50"
     style={{
       translateX: cursorXSpring,
       translateY: cursorYSpring,
