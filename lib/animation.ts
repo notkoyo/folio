@@ -37,6 +37,13 @@ type SocialsProps = {
   };
 };
 
+export type CursorProps = {
+  default?: {
+    x?: number;
+    y?: number;
+  }
+};
+
 export const textMotion: AnimatedProps = {
   rest: {
     y: 40,

@@ -15,7 +15,7 @@ export default function FadedCornerInfo() {
           ease: "easeInOut",
         },
       }}
-      className="text-black/25 cursor-default">
+      className="text-black/25">
       <span className="absolute bottom-3 left-6">2024</span>
       <span className="absolute bottom-3 right-6">manchester, england</span>
     </motion.div>

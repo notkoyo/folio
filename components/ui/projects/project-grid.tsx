@@ -18,7 +18,7 @@ export default function ProjectGrid() {
             initial="rest"
             whileHover="hover"
             animate="rest"
-            className="relative cursor-default overflow-hidden flex h-full items-end rounded-3xl">
+            className="relative overflow-hidden flex h-full items-end rounded-3xl">
             <motion.div
               variants={techMotion}
               className="absolute top-0 left-0 z-[999]">

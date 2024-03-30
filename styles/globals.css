@@ -79,3 +79,9 @@ html {
   scroll-behavior: smooth;
   scrollbar-width: none;
 }
+
+html,
+a,
+button {
+  cursor: none;
+}

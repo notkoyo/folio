@@ -17,7 +17,7 @@ export default function WorkAvailability() {
           ease: "easeInOut",
         },
       }}
-      className="hidden sm:flex items-center gap-x-2 absolute top-5 left-8 cursor-default">
+      className="hidden sm:flex items-center gap-x-2 absolute top-5 left-8">
       <span>
         <IconCircleFilled size={16} color="green" />
       </span>

@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function IntroSection() {
   return (
-    <div className='flex flex-col gap-y-4 items-center justify-center cursor-default'>
+    <div className='flex flex-col gap-y-4 items-center justify-center'>
       <p className='text-3xl font-light flex gap-x-3'>
         hi
         <span className='inline-block'>👋🏼,</span>
